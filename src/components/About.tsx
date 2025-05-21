@@ -43,6 +43,11 @@ const About = () => {
 
             <h3 className="text-2xl font-semibold text-portfolio-navy mb-4 mt-10">Certifications</h3>
             <div className="mb-4">
+              <h4 className="text-lg font-medium text-portfolio-blue">International Business</h4>
+              <p className="text-sm text-portfolio-gray">Indian Institute of Technology, Roorkee | April 2025</p>
+              <p className="text-sm text-portfolio-gray">Grade - Elite | International Business, International Trade skills</p>
+            </div>
+            <div className="mb-4">
               <h4 className="text-lg font-medium text-portfolio-blue">National Financial Literacy Quiz 2025</h4>
               <p className="text-sm text-portfolio-gray">National Institute of Securities Markets (NISM) | February 2025</p>
             </div>

@@ -22,13 +22,13 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-navy mb-4 animate-fade-in">
-            <span className="block">Haadhi Noushad</span>
+            <span className="block">Haadhi Noushad K</span>
           </h1>
           <h2 className="text-xl md:text-2xl text-portfolio-gray mb-6 animate-fade-in-delayed">
-            Software Engineering Intern at SolSo
+            MBA Graduate | Finance and Operations Professional
           </h2>
           <p className="text-lg text-portfolio-gray mb-8 animate-fade-in-delayed">
-            Passionate about integrating machine learning with software engineering to create innovative solutions. Currently studying at University of Wollongong Dubai.
+            Experienced in business development, financial planning, and operations management with a proven track record of driving growth and optimizing processes in the travel industry.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in-delayed">
             <Button 

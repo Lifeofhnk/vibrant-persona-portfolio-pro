@@ -8,35 +8,35 @@ import { Github, ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Hotel Management System",
-      description: "Developed a comprehensive hotel management system with booking capabilities, room management, and customer tracking.",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      githubLink: "#",
-      liveLink: "#",
+      title: "Unlocking Growth: Navigating Export Opportunities",
+      description: "Explored international trade dynamics, export procedures, and market entry strategies. Analyzed India's spice exports (HS Code 0910), focusing on key markets, trade incentives, and the role of certifications and subsidies in enhancing global competitiveness.",
+      technologies: ["International Business", "Market Research", "Export Analysis"],
+      time: "February 2025",
+      institution: "Lovely Professional University",
       image: "placeholder.svg"
     },
     {
-      title: "Machine Learning Model for Customer Segmentation",
-      description: "Created a machine learning model to segment hotel customers based on their booking patterns and preferences.",
-      technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
-      githubLink: "#",
-      liveLink: "#",
+      title: "Analysis and Competitor Benchmarking: Adani Energy Solutions",
+      description: "Analyzed Adani Energy's capital structure, benchmarking against Tata Power to identify improvements. Provided insights on profitability, liquidity, and solvency for better market positioning.",
+      technologies: ["Financial Analysis", "Benchmarking", "Strategic Planning"],
+      time: "December 2024",
+      institution: "Lovely Professional University",
       image: "placeholder.svg"
     },
     {
-      title: "Restaurant Inventory Tracker",
-      description: "Built an application to track and manage restaurant inventory with real-time updates and alerts for low stock.",
-      technologies: ["JavaScript", "React", "Firebase", "Material UI"],
-      githubLink: "#",
-      liveLink: "#",
+      title: "Volkswagen Operations Study Analysis",
+      description: "Examined supply chain logistics and strategies to maintain sustainability and international growth. Conducted data analysis using Tableau, JASP, Power BI, and Excel. Provided actionable insights to optimize Volkswagen's global supply chain operations through data visualization and reporting.",
+      technologies: ["Tableau", "JASP", "Power BI", "Excel"],
+      time: "September 2024",
+      institution: "Lovely Professional University",
       image: "placeholder.svg"
     },
     {
-      title: "Hospitality Data Analysis Dashboard",
-      description: "Designed and implemented a data visualization dashboard for hospitality metrics and KPIs.",
-      technologies: ["Python", "Dash", "Plotly", "SQL"],
-      githubLink: "#",
-      liveLink: "#",
+      title: "Professional Development and Networking: Career Wisdom",
+      description: "Conducted a project focused on career development and wisdom. Interacted with 30 faculty members to gather career advice and insights. Compiled the findings into actionable career strategies for personal growth and professional success.",
+      technologies: ["Networking", "Career Development", "Research"],
+      time: "September 2024",
+      institution: "Lovely Professional University",
       image: "placeholder.svg"
     }
   ];
@@ -48,7 +48,7 @@ const Projects = () => {
           <h2 className="text-3xl font-bold text-portfolio-navy mb-2">Projects</h2>
           <div className="w-20 h-1 bg-portfolio-accent mx-auto mb-6"></div>
           <p className="text-lg text-portfolio-gray max-w-3xl mx-auto">
-            Showcasing my technical skills through various projects
+            Academic and professional projects showcasing my analytical and business skills
           </p>
         </div>
 
@@ -64,6 +64,7 @@ const Projects = () => {
               </div>
               <CardHeader>
                 <CardTitle className="text-xl font-bold text-portfolio-navy">{project.title}</CardTitle>
+                <div className="text-sm text-portfolio-gray">{project.time} | {project.institution}</div>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {project.technologies.map((tech, i) => (
                     <Badge key={i} className="bg-portfolio-blue text-white hover:bg-portfolio-navy">
@@ -77,27 +78,6 @@ const Projects = () => {
                   {project.description}
                 </CardDescription>
               </CardContent>
-              <CardFooter className="flex justify-between gap-4 pt-4">
-                <Button 
-                  variant="outline" 
-                  className="flex-1 border-portfolio-blue text-portfolio-blue hover:bg-portfolio-blue hover:text-white"
-                  asChild
-                >
-                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                    <Github className="mr-2 h-4 w-4" />
-                    Code
-                  </a>
-                </Button>
-                <Button 
-                  className="flex-1 bg-portfolio-blue hover:bg-portfolio-navy text-white"
-                  asChild
-                >
-                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="mr-2 h-4 w-4" />
-                    Live Demo
-                  </a>
-                </Button>
-              </CardFooter>
             </Card>
           ))}
         </div>

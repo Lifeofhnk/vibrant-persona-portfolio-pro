@@ -5,36 +5,39 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const Experience = () => {
   const experiences = [
     {
-      title: "Software Engineering Intern",
-      company: "SolSo",
-      period: "February 2024 - Present",
-      location: "Dubai, United Arab Emirates",
+      title: "Trainee",
+      company: "Quality Council of India | Gunvatta Gurukul",
+      period: "March 2025 - May 2025",
+      location: "India",
       description: [
-        "Developing a comprehensive SaaS solution for Hospitality & Fitness industries",
-        "Working with React, Node.js, and various cloud technologies",
-        "Participating in the complete software development lifecycle"
+        "Contributed to policy research and analysis of quality standards and frameworks",
+        "Participated in initiatives to promote national interests through adherence to quality standards",
+        "Built a professional network by collaborating with industry experts, policymakers, and peers",
+        "Gained skills in identifying and mitigating project risks to ensure quality alignment"
       ]
     },
     {
-      title: "Student Kitchen Porter",
-      company: "Jumeirah Restaurant Group",
-      period: "September 2021 - July 2022",
-      location: "Dubai, United Arab Emirates",
+      title: "Finance and Operations Manager",
+      company: "Flylux Holiday Experts",
+      period: "November 2023 - June 2024",
+      location: "India",
       description: [
-        "Worked in various outlets of Jumeirah Restaurant Group",
-        "Balanced academic responsibilities with professional obligations",
-        "Developed time management and teamwork skills in a fast-paced environment"
+        "Developed and launched international travel packages and digital solutions, driving revenue growth and enhancing customer satisfaction in a fully remote environment",
+        "Managed financial planning and budgeting for travel packages, ensuring cost-efficiency while optimizing profit margins",
+        "Managed financial operations and cash flow, reducing costs by 10% through strategic partnerships and vendor negotiations",
+        "Increased bookings by 40% through targeted marketing strategies and enhanced customer engagement, driving revenue growth"
       ]
     },
     {
-      title: "Voluntary Experience",
-      company: "Hospitality and Events",
-      period: "Various periods",
-      location: "Dubai, United Arab Emirates",
+      title: "Business Development Executive",
+      company: "Roversgo Travel Company",
+      period: "March 2022 - November 2023",
+      location: "India",
       description: [
-        "Participate in community service and volunteer events",
-        "Support various initiatives in the hospitality sector",
-        "Contribute to event management and planning"
+        "Directed the company's entry into international markets, introducing premium travel services and diversifying offerings",
+        "Developed strategic partnerships and marketing campaigns, driving a 40% increase in bookings within the first year",
+        "Streamlined logistics and operations, ensuring exceptional client experiences and service consistency",
+        "Achieved a growth rate of 30% year-on-year by leveraging innovative customer service and marketing strategies"
       ]
     }
   ];

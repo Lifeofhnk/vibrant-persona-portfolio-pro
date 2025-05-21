@@ -57,7 +57,7 @@ const Navbar = () => {
           }} 
           className="text-portfolio-navy font-bold text-xl hover:text-portfolio-blue transition-colors"
         >
-          Haadhi Noushad
+          Haadhi Noushad K
         </a>
 
         {/* Mobile Menu Button */}

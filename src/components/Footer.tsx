@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold">Haadhi Noushad</h2>
-            <p className="text-gray-300 mt-2">Software Engineering Student</p>
+            <h2 className="text-2xl font-bold">Haadhi Noushad K</h2>
+            <p className="text-gray-300 mt-2">MBA Graduate | Finance and Operations Professional</p>
           </div>
           
           <div className="flex space-x-4">
@@ -34,7 +34,7 @@ const Footer = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="mailto:haadhin@gmail.com"
+              href="mailto:haadhinoushadk@gmail.com"
               className="text-gray-300 hover:text-white transition-colors"
               aria-label="Email"
             >
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-          <p>&copy; {currentYear} Haadhi Noushad. All rights reserved.</p>
+          <p>&copy; {currentYear} Haadhi Noushad K. All rights reserved.</p>
         </div>
       </div>
     </footer>

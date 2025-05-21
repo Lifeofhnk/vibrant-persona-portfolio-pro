@@ -2,6 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowDownIcon } from "lucide-react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -21,6 +22,12 @@ const Hero = () => {
     >
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
+          <div className="flex justify-center mb-6">
+            <Avatar className="h-32 w-32 border-4 border-portfolio-blue shadow-lg">
+              <AvatarImage src="/lovable-uploads/6eb1b3d9-4749-451a-9beb-8ed30653a34d.png" alt="Haadhi Noushad K" />
+              <AvatarFallback>HN</AvatarFallback>
+            </Avatar>
+          </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-navy mb-4 animate-fade-in">
             <span className="block">Haadhi Noushad K</span>
           </h1>

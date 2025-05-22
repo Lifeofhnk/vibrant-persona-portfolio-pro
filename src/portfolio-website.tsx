@@ -203,7 +203,7 @@ const Portfolio = () => {
             <div className="mb-8 animate-fade-in">
                 <div className="w-60 h-60 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
                   <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center text-4xl font-bold text-gray-800">
-                    <img src="/public/lovable-uploads/6eb1b3d9-4749-451a-9beb-8ed30653a34d.png" alt="Profile" className="rounded-full w-full h-full object-contain" />
+                    <img src="/lovable-uploads/6eb1b3d9-4749-451a-9beb-8ed30653a34d.png" alt="Profile" className="rounded-full w-full h-full object-contain" />
                   </div>
                 </div>
             </div>
